@@ -1,0 +1,23 @@
+{
+    "version": "0.0.1",
+    "description": "Desktop editor for the Kolang Persian programming language",
+    "homepage": "https://github.com/faralidev/kolang-ide",
+    "license": "MIT",
+    "_comment": "This manifest requires the kolang-ide release workflow to publish a portable Windows zip (kolang-ide-$version-win.zip) alongside the nsis installer. Scoop must never build from source.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/faralidev/kolang-ide/releases/download/v0.0.1/kolang-ide-0.0.1-win.zip",
+            "shortcuts": [
+                ["kolang-ide.exe", "Kolang IDE"]
+            ]
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/faralidev/kolang-ide/releases/download/v$version/kolang-ide-$version-win.zip"
+            }
+        }
+    }
+}
