@@ -1,11 +1,12 @@
 {
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Linter for the Persian Kolang programming language",
     "homepage": "https://github.com/faralidev/kolang-linter",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/faralidev/kolang-linter/releases/download/v0.0.1/kolang-linter-windows-amd64.zip",
+            "url": "https://github.com/faralidev/kolang-linter/releases/download/v1.0.0/kolang-linter-windows-amd64.exe",
+            "hash": "38c10865dabe77e826e07acfec21ee9864b745e85827f9ca5ad0e8d07d4b5be3",
             "bin": "kolang-linter.exe",
             "shortcuts": [
                 ["kolang-linter.exe", "kolang-linter"]
@@ -16,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/faralidev/kolang-linter/releases/download/v$version/kolang-linter-windows-amd64.zip"
+                "url": "https://github.com/faralidev/kolang-linter/releases/download/v$version/kolang-linter-windows-amd64.exe"
             }
         }
     }

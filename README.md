@@ -8,7 +8,8 @@
 | --- | --- |
 | `kolang` | مفسر زبان برنامه‌نویسی کولنگ |
 | `kolang-linter` | لینتر زبان برنامه‌نویسی کولنگ |
-| `kolang-ide` | ویرایشگر دسکتاپ (Electron) برای کولنگ |
+
+> ویرایشگر کلنگ (kolang-mobile، اپلیکیشن React Native) هنوز به‌صورت مانیفست Scoop در دسترس نیست.
 
 ## نصب
 
@@ -25,7 +26,6 @@ irm get.scoop.sh | iex
 scoop bucket add faralidev https://github.com/faralidev/scoop-bucket
 scoop install kolang
 scoop install kolang-linter
-scoop install kolang-ide
 ```
 
 ## مانیفست‌ها چگونه کار می‌کنند؟
@@ -51,7 +51,6 @@ scoop install kolang-ide
 ```powershell
 scoop update kolang
 scoop update kolang-linter
-scoop update kolang-ide
 ```
 
 ## نسخه
@@ -72,7 +71,6 @@ A Scoop bucket for the Kolang Persian programming language ecosystem. Install wi
 scoop bucket add faralidev https://github.com/faralidev/scoop-bucket
 scoop install kolang
 scoop install kolang-linter
-scoop install kolang-ide
 ```
 
 Manifests use **prebuilt binaries** from GitHub Releases — no build step. After publishing a new release, bump the `version` in the manifests under `bucket/`; the `checkver` and `autoupdate` blocks handle the rest.
