@@ -8,7 +8,10 @@
             "url": "https://github.com/faralidev/kolang-ide/releases/download/v0.1.2/kolang-ide.Setup.0.1.2.exe",
             "hash": "ea614fe2c48fccf3b4589d7ce4f239a8c6e34e4f1078bd9435e63080aeba4944",
             "shortcuts": [
-                ["kolang-ide.exe", "Kolang IDE"]
+                [
+                    "kolang-ide.exe",
+                    "Kolang IDE"
+                ]
             ]
         }
     },
