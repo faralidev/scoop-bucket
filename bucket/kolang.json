@@ -6,10 +6,13 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/faralidev/kolang/releases/download/v0.1.1/kolang-windows-amd64.zip",
-            "hash": "7c7b3781b2af1faab5ee35884d8ae46eafd547d65bb629d61a2d69ae8fcd62db",
+            "hash": "30b36c3a84e6ab9ce83c871fa5f60958953a0369e1d72163ec9f02ca1b208e92",
             "bin": "kolang.exe",
             "shortcuts": [
-                ["kolang.exe", "kolang"]
+                [
+                    "kolang.exe",
+                    "kolang"
+                ]
             ]
         }
     },
