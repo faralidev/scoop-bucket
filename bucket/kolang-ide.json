@@ -1,12 +1,12 @@
 {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Desktop editor for the Kolang Persian programming language",
     "homepage": "https://github.com/faralidev/kolang-ide",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/faralidev/kolang-ide/releases/download/v0.1.2/kolang-ide_0.1.2_x64-setup.exe",
-            "hash": "f993bfa4b80839dbe015bbfa65181c681fbee36e69bc7669e95066e0c2a03bf0",
+            "url": "https://github.com/faralidev/kolang-ide/releases/download/v0.1.3/kolang-ide_0.1.2_x64-setup.exe",
+            "hash": "729bde0846294dfa05f8ca9b328933913ac8397859ae124ae21d1b5208322131",
             "shortcuts": [
                 [
                     "kolang-ide.exe",
