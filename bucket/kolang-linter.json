@@ -6,10 +6,13 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/faralidev/kolang-linter/releases/download/v0.1.1/kolang-linter-windows-amd64.zip",
-            "hash": "f1ee2fb3e4fe290caf1ac1eaad9da734a82ab7234afcc44b0e196dc4d3f5133c",
+            "hash": "4f96be69b7b2bb05f52f6c2ed4522298f4d8e0e2f4f7d016b8b32878e69dcd77",
             "bin": "kolang-linter.exe",
             "shortcuts": [
-                ["kolang-linter.exe", "kolang-linter"]
+                [
+                    "kolang-linter.exe",
+                    "kolang-linter"
+                ]
             ]
         }
     },
