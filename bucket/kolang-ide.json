@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/faralidev/kolang-ide/releases/download/v0.1.2/kolang-ide_0.1.2_x64-setup.exe",
-            "hash": "ea614fe2c48fccf3b4589d7ce4f239a8c6e34e4f1078bd9435e63080aeba4944",
+            "hash": "f993bfa4b80839dbe015bbfa65181c681fbee36e69bc7669e95066e0c2a03bf0",
             "shortcuts": [
                 [
                     "kolang-ide.exe",
